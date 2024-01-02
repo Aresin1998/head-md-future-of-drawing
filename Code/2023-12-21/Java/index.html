@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musica Generativa con Tone.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/tone@14"></script>
+</head>
+<body>
+  <button onclick="toggleMusic()">Avvia/Arresta Musica</button>
+  <label for="ppmRange">Velocità di Riproduzione (PPM):</label>
+  <input type="range" id="ppmRange" min="1" max="500" value="120" onchange="updatePPM()">
+  <span id="ppmValue">120</span>
+
+  <script>
+    let isPlaying = false;
+    let ppm = 120;
+
+    const synth = new Tone.Synth().toDestination();
+
+    function toggleMusic() {
+      isPlaying = !isPlaying;
+
+      if (isPlaying) {
+        generateMusicLoop();
+      } else {
+        stopMusic();
+      }
+    }
+
+    function updatePPM() {
+      ppm = document.getElementById("ppmRange").value;
+      document.getElementById("ppmValue").innerText = ppm;
+    }
+
+    function generateRandomNote() {
+      const pentatonicScale = ['C4', 'D4', 'E4', 'G4', 'A4', 'C5', 'D5', 'E5'];
+      const randomIndex = Math.floor(Math.random() * pentatonicScale.length);
+      return pentatonicScale[randomIndex];
+    }
+
+    function generateRandomDuration() {
+      const durations = ['4n', '8n', '16n', '2n'];
+      const randomIndex = Math.floor(Math.random() * durations.length);
+      return durations[randomIndex];
+    }
+
+    function generateMusicLoop() {
+      const loop = new Tone.Loop(() => {
+        if (isPlaying) {
+          const note = generateRandomNote();
+          const duration = generateRandomDuration();
+
+          synth.triggerAttackRelease(note, duration);
+        }
+      }, `4n`).start(0);
+
+      Tone.Transport.bpm.value = ppm;
+
+      if (!Tone.Transport.state.startsWith('start')) {
+        Tone.Transport.start();
+      }
+    }
+
+    function stopMusic() {
+      Tone.Transport.stop();
+    }
+  </script>
+</body>
+</html>
+
+
+
