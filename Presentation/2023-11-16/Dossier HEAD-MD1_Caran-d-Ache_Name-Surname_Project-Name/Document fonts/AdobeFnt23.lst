@@ -4,9 +4,9 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/ares/Downloads/Dossier HEAD-MD1_Caran-d-Ache_Name-Surname_Project-Name/Document fonts/AdobeFnt23.lst
-FileLength:1714
-FileModTime:721637899
+OutlineFileName:/Users/ares/Desktop/HEAD/github/head-md-future-of-drawing/Presentation/2023-11-16/Dossier HEAD-MD1_Caran-d-Ache_Name-Surname_Project-Name/Document fonts/AdobeFnt23.lst
+FileLength:1291
+FileModTime:721767504
 %EndFont
 
 %BeginFont
@@ -22,7 +22,7 @@ WidthClass:5
 AngleClass:1
 FullName:Arial Italic
 WritingScript:Roman
-OutlineFileName:/Users/ares/Downloads/Dossier HEAD-MD1_Caran-d-Ache_Name-Surname_Project-Name/Document fonts/Arial Italic.ttf
+OutlineFileName:/Users/ares/Desktop/HEAD/github/head-md-future-of-drawing/Presentation/2023-11-16/Dossier HEAD-MD1_Caran-d-Ache_Name-Surname_Project-Name/Document fonts/Arial Italic.ttf
 DataFormat:sfntData
 hasSVG:no
 hasCOLR:no
@@ -46,7 +46,7 @@ WidthClass:5
 AngleClass:0
 FullName:Arial
 WritingScript:Roman
-OutlineFileName:/Users/ares/Downloads/Dossier HEAD-MD1_Caran-d-Ache_Name-Surname_Project-Name/Document fonts/Arial.ttf
+OutlineFileName:/Users/ares/Desktop/HEAD/github/head-md-future-of-drawing/Presentation/2023-11-16/Dossier HEAD-MD1_Caran-d-Ache_Name-Surname_Project-Name/Document fonts/Arial.ttf
 DataFormat:sfntData
 hasSVG:no
 hasCOLR:no
