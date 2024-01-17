@@ -3,6 +3,8 @@
 Dye—Radio
 Ares Pedroli 
 
+FIRST USEFUL FEEDBACK 
+16.11
 - Personal feedback 
 I think my project has several interesting points that can still be developed. Right now I am happy with the direction it is taking. 
 I realise that the mix between colours and sound imposes many challenges and many more tests to be done to understand how my object can "express itself" and also how it can interact with the user. 
@@ -21,7 +23,9 @@ Regarding the shape of the object, I have many doubts.
 - Which material is most suitable? 
 In short... many questions regarding the form.
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  TEST DAY  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+TEST DAY  
+14.12
 - Méthode de présentation
 J'ai décidé de demander aux gens d'interagir avec mon objet de trois manières différentes : 
 Interaction avec l'objet complet (image 1), interaction avec l'objet sans le tiroir intern (image 2), interaction avec l'objet et un tiroir extérieur(image 3).
@@ -66,3 +70,17 @@ La manivelle ne pose pas de problème, en fait les gens apprécient qu'elle soit
 - Prochaine étape
 • Comprendre comment définir la forme pour la rendre aussi fonctionnelle et intuitive que possible. 
 • Comprendre comment recréer un environnement sonore à l'aide de codes et d'électronique afin que les personnes se retrouvent dans le même environnement que la musique de référence utilisée (Erik Satie, Debussy).
+
+PRESENTATION
+17.01
+- Personal feedback 
+The professors are right in remarking that music should evolve more frequently instead of following a similar loop and changing it only when the crank is turned. 
+
+- Form
+After personal reflection I think the item should have precise specifications for its use. Perhaps a leaflet with printed usage information (as on page 4 of my presentation), or symbols printed directly on the object. 
+
+- Shape /Electronics
+The shape convinces me. Maybe with smaller electronic components, such as a button instead of the encoder (for the crank) more space could be saved and thus reduce the length of the object by a few centimeters. 
+
+- Code 
+Code could allow more complex interactions, for example to change the scale completely from one moment to the next, to seek user interaction. 
